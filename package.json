@@ -1,0 +1,12 @@
+{
+  "name": "clipcatch",
+  "version": "1.0.0",
+  "description": "Instagram and Facebook video downloader (Node.js + Express + yt-dlp)",
+  "main": "server.js",
+  "scripts": {
+    "postinstall": "node scripts/get-ytdlp.js",
+    "start": "node server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.19.2" }
+}
